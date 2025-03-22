@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { useMatchesStoreActions } from '../components/matches-store';
 import { Match } from '../api/matches.types';
 import { queryClient } from '../libs/react-query/query-client';
-import { throttle } from 'lodash';
 
 type MessageResponse = {
     data: Match[];

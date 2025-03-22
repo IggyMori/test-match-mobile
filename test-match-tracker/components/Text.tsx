@@ -7,7 +7,7 @@ export  const Text = ({ style, ...props }: TextProps) => {
 
 const styles = StyleSheet.create({
   text: {
-    fontFamily: 'Inter_400Regular',
+    fontFamily: 'Inter',
   },
 });
 
